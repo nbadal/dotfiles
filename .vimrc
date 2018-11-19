@@ -20,7 +20,6 @@ set visualbell
 set number
 " Enable syntax highlighting
 set background=dark
-colorscheme gruvbox
 syntax on
 filetype plugin indent on
 " Highlight current line
