@@ -28,4 +28,4 @@ cask "java6"
 cask "java8"
 ## Utilities:
 cask "keepingyouawake"
-cask "sizeup"
+cask "spectacle"
