@@ -5,6 +5,10 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 
 # Commands:
+brew "zsh"
+brew "zsh-completions"
+brew "curl", link: true
+brew "wget"
 brew "git"
 brew "gradle"
 brew "jenv"
@@ -19,6 +23,7 @@ cask "iterm2"
 cask "slack"
 cask "android-studio"
 cask "jetbrains-toolbox"
+cask "sourcetree"
 cask "java6"
 cask "java8"
 ## Utilities:
