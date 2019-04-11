@@ -1,0 +1,26 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+
+# Commands:
+brew "git"
+brew "gradle"
+brew "jenv"
+brew "mas"
+
+# Apps:
+## General:
+cask "google-chrome"
+cask "spotify"
+cask "iterm2"
+## Development:
+cask "slack"
+cask "android-studio"
+cask "jetbrains-toolbox"
+cask "java6"
+cask "java8"
+## Utilities:
+cask "keepingyouawake"
+cask "sizeup"
