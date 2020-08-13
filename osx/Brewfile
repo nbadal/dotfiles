@@ -10,6 +10,7 @@ brew "zsh-completions"
 brew "curl", link: true
 brew "wget"
 brew "git"
+brew "github/gh/gh"
 brew "gradle"
 brew "jenv"
 brew "mas"
