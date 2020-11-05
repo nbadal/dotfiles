@@ -36,3 +36,4 @@ cask "adoptopenjdk8"
 ## Utilities:
 cask "keepingyouawake"
 cask "spectacle"
+cask "gpg-suite"
