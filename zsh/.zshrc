@@ -2,7 +2,8 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+export ZSH="$HOME/.oh-my-zsh"
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -78,3 +79,26 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+
+# jenv
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
+# android-sdk (brew)
+export ANDROID_HOME="$HOME/android-sdk-macosx"
+#export ANDROID_NDK_HOME="/Users/nbadal/android-sdk-macosx/ndk-bundle"
+export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_NDK_HOME:$PATH"
+
+export PATH="/usr/local/sbin:$PATH"
+
+export PATH="$HOME/.fastlane/bin:$PATH"
+
+# rbenv
+eval "$(rbenv init -)"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/nbadal/tmp/gcloud/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/nbadal/tmp/gcloud/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/nbadal/tmp/gcloud/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/nbadal/tmp/gcloud/google-cloud-sdk/completion.zsh.inc'; fi
