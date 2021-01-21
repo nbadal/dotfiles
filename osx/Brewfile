@@ -17,7 +17,7 @@ brew "mas"
 brew "magic-wormhole"
 brew "vitorgalvao/tiny-scripts/cask-repair"
 brew "npm"
-brwe "yarn"
+brew "yarn"
 
 # Apps:
 ## General:

@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="nbadal"
+ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -86,9 +86,9 @@ export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
 # android-sdk (brew)
-export ANDROID_HOME="$HOME/android-sdk-macosx"
-#export ANDROID_NDK_HOME="/Users/nbadal/android-sdk-macosx/ndk-bundle"
-export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_NDK_HOME:$PATH"
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+#export ANDROID_NDK_HOME="$ANDROID_HOME/ndk"
+export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$ANDROID_NDK_HOME:$PATH"
 
 export PATH="/usr/local/sbin:$PATH"
 
@@ -96,6 +96,10 @@ export PATH="$HOME/.fastlane/bin:$PATH"
 
 # rbenv
 eval "$(rbenv init -)"
+
+
+source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/nbadal/tmp/gcloud/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/nbadal/tmp/gcloud/google-cloud-sdk/path.zsh.inc'; fi
