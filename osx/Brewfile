@@ -37,3 +37,7 @@ cask "adoptopenjdk8"
 cask "keepingyouawake"
 cask "spectacle"
 cask "gpg-suite"
+
+# App Store Apps:
+mas "Meeter", id: 1510445899
+mas "Time Out", id: 402592703
